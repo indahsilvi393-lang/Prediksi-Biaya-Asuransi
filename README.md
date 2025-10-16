@@ -61,4 +61,4 @@ Hasil evaluasi diukur dengan metrik:
 ## 🚀 **Cara Menjalankan**
 1. Clone repository:
    ```bash
-   git clone https://github.com/USERNAME/Prediksi-Biaya-Asuransi.git
+   git clone https://github.com/indahsilvi393-lang/Prediksi-Biaya-Asuransi.git
