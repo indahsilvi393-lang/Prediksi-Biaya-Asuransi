@@ -16,13 +16,12 @@ Analisis dilakukan untuk memahami pengaruh faktor-faktor seperti **usia, jenis k
 Dataset yang digunakan berasal dari:
 - **Kaggle**: *Medical Cost Personal Dataset*  
 - Terdiri dari **1338 baris data** dan **7 fitur utama**, yaitu:
-  - `age` → usia pemegang polis  
-  - `sex` → jenis kelamin  
-  - `bmi` → indeks massa tubuh  
-  - `children` → jumlah tanggungan  
-  - `smoker` → status perokok  
-  - `region` → wilayah tempat tinggal  
-  - `charges` → biaya klaim (target variabel)
+  - Usia (age): Usia penerima manfaat utama.
+  - Jenis kelamin (sex) : Jenis kelamin pemegang polis asuransi, bisa perempuan atau laki-laki.
+  - BMI (bmi): Indeks massa tubuh, memberikan pemahaman tentang berat badan yang relatif tinggi atau rendah dibandingkan tinggi badan. Ini merupakan indeks obyektif dari berat badan (kg/m²) dengan menggunakan rasio tinggi terhadap berat badan. Idealnya berkisar antara 18,5 hingga 24,9.
+  - Jumlah anak (children): Jumlah anak yang ditanggung oleh asuransi kesehatan / jumlah tanggungan.
+  - Perokok (smoker): Kebiasaan merokok.
+  - Wilayah tempat tinggal (region): Area tempat tinggal penerima manfaat di AS, seperti timur laut (northeast), tenggara (southeast), barat daya (southwest), dan barat laut (northwest).
 
 ---
 
@@ -32,14 +31,6 @@ Empat model regresi digunakan dalam eksperimen:
 - **Ridge Regression**
 - **Lasso Regression**
 - **XGBoost Regression**
-
-Hasil evaluasi diukur dengan metrik:
-- MAE (*Mean Absolute Error*)  
-- MSE (*Mean Squared Error*)  
-- RMSE (*Root Mean Squared Error*)  
-- R² (*Coefficient of Determination*)  
-- Training Time (waktu pelatihan)
-
 ---
 
 ## 🧾 **Overall Results**
