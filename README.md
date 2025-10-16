@@ -1,5 +1,3 @@
-# Prediksi-Biaya-Asuransi
-Analisis biaya klaim asuransi kesehatan menggunakan Linear Regression dan turunannya (Lasso, Ridge).
 # 🩺 Prediksi Biaya Asuransi Kesehatan
 
 Proyek ini bertujuan untuk **memprediksi biaya klaim asuransi kesehatan** menggunakan algoritma *Linear Regression*, *Lasso Regression*, dan *Ridge Regression*.  
