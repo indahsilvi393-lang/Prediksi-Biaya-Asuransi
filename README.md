@@ -42,6 +42,8 @@ Empat model regresi digunakan dalam eksperimen:
 | Lasso Regression   | 0.892664  | 0.881224 | 1.225243   | 1.230933  | 1.106907    | 1.109474   | 0.891511  | 0.876471 | 0.002201          |
 | XGBoost Regression | 0.039163  | 0.986092 | 0.003113   | 1.529381  | 0.055790    | 1.236681   | 0.999724  | 0.846521 | 0.194125          |
 
+![Shopee Sales Dashboard](project1.png)
+
 📈 **Kesimpulan:**  
 - Model **XGBoost** menunjukkan nilai *Train R²* yang sangat tinggi (0.9997) menandakan overfitting,  
   sementara **Ridge Regression** memiliki performa paling seimbang antara data train dan test.  
